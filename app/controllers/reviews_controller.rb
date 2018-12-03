@@ -15,6 +15,7 @@ class ReviewsController < ApplicationController
       redirect_to book_path(@book)
     else
       render 'new'
+    end
   end
 
   private 
